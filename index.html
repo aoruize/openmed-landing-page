@@ -597,37 +597,26 @@
 							<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8 ">
 								<div class="vc_column-inner ">
 									<div class="wpb_wrapper">
-										
-										<div role="form" class="wpcf7" id="wpcf7-f387-p436-o1" lang="en-US" dir="ltr">
-											<div class="screen-reader-response"></div>
-											<form action="https://formspree.io/xleeqely" method="post" class="wpcf7-form" novalidate="novalidate">
-												<div class="comment-form text-center">
-													<div class="form-results"></div>
-													<div class="input-field">
-														<span class="wpcf7-form-control-wrap your-name">
-															<input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-line" aria-required="true" aria-invalid="false" />
-														</span>
-														<label class="input-title">Your Name</label>
-													</div>
-													<div class="input-field">
-														<span class="wpcf7-form-control-wrap your-email">
-															<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-line" aria-required="true" aria-invalid="false" />
-														</span>
-														<label class="input-title">Your Email</label>
-													</div>
-													<div class="input-field">
-														<span class="wpcf7-form-control-wrap your-message">
-															<textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea input-line txtarea" aria-invalid="false"></textarea>
-														</span>
-														<label class="input-title">Your Message</label>
-													</div>
-													<div class="input-field">
-														<button type="submit" class="btn">Submit</button>
-													</div>
+										<form action="https://formspree.io/xleeqely" method="POST" target="_blank">
+											<div class="comment-form text-center">
+												<div class="input-field">
+													<input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-line" aria-required="true" aria-invalid="false" required>
+													<label class="input-title">Your Name</label>
 												</div>
-												<div class="wpcf7-response-output wpcf7-display-none"></div>
-											</form>
-										</div>
+												<div class="input-field">
+													<input type="email" name="_replyto"  value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-line" aria-required="true" aria-invalid="false" required>
+													<label class="input-title">Your Email</label>
+												</div>
+												<div class="input-field">
+													<textarea name="message"  cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea input-line txtarea" aria-invalid="false" required></textarea>
+													<label class="input-title">Your Message</label>
+												</div>
+											
+												<!-- your other form fields go here -->
+											
+												<button type="submit" class="btn">Send</button>
+											</div>
+										</form>
 									</div>
 								</div>
 							</div>
